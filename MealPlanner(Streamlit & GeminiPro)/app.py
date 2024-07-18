@@ -7,7 +7,7 @@ from IPython.display import display
 from IPython.display import Markdown
 
 
-genai.configure(api_key="AIzaSyCqMCBk2k1-pbACD3grHQIpiK7NKiDEx4A")
+genai.configure(api_key="")
 
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
