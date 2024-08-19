@@ -5,9 +5,8 @@ from google.colab import userdata
 
 from IPython.display import display
 from IPython.display import Markdown
-from config import GEMINIPROAPKIKEY
 
-genai.configure(api_key=GEMINIPROAPIKEY)
+genai.configure(api_key="AIzaSyCqMCBk2k1-pbACD3grHQIpiK7NKiDEx4A")
 
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_google_genai import ChatGoogleGenerativeAI
